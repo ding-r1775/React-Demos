@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import SearchBar from "./SearchBar";
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
-
-const KEY = "AIzaSyATxq9hZm8N-s2kd5UlWZyxu_v4pcrTifs";
+import KEY from '../const/keys';
 
 class App extends Component {
   state = { videos: []};
