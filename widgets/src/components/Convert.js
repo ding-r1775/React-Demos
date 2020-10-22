@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Convert = ({ language, text }) => {
-  const [translated, setTranslated] = useState("");
+  const [translated, setTranslated] = useState("Output");
   const [debouncedText, setDebouncedText] = useState("");
 
   useEffect(() => {
